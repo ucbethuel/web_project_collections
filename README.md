@@ -1,2 +1,5 @@
-# chess_board_design
-Chess Board Layout design carried out during teaching moment at CCT, Benin city, Edo State.
+# Mini web project
+This repo contains mini projects works from author Uchenna Bethel Orji
+Social Links
+
+[wwww.github.com/ucbethuel][Github]
