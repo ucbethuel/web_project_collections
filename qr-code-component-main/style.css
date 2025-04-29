@@ -1,0 +1,55 @@
+:root{
+  --white: hsl(0, 0%, 100%);
+  --slate-white300: hsl(212, 45%, 89%);
+  --slate-white500: hsl(216, 15%, 48%);
+  --slate-white900: hsl(218, 44%, 22%);
+  --font-size15: 15px;
+  --font-weight400: 400;
+  --font-weight700: 700;
+  --font-brand: "Outfit", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: var(--slate-white300);
+}
+
+.container{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 5% 1%;
+    margin: 10px auto;
+    box-shadow: inset black;
+  }
+  .qr-code-container > img{
+    height: 90%;
+    width: 100%;
+    margin:  auto;
+    border-radius: 10px;
+  }
+  .text-container{
+    text-align: center;
+    font-family: var(--font-brand);
+    padding: 15%;
+
+  }
+  .text-container > span:nth-child(1){
+    font-weight: var(--font-weight700);
+    /* padding-top: 1rem; */
+    font-size: larger;
+    display: block;
+  }
+  .text-container > span:nth-child(2){
+    font-weight: var(--font-weight400);
+    color: var(--slate-white900);
+    font-size: var(--font-size15);
+    display: block;
+  }
