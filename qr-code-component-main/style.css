@@ -10,61 +10,46 @@
   --mobile-size: 375px;
   --desktop-size: 1024px;
 }
-*{
-    padding: 0;
-    margin: 0;
+
+
+  * {
     box-sizing: border-box;
-  }
-  body{
-      background-color: var(--slate-white300);
-  }
-
-  .text-container > span:nth-child(1){
-    font-size: larger;
-    display: block;
-  }
-
-.container{
-    height: 100vh;
-    width: 90vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--white);
-    border-radius: 30px;
-    padding: 5% 1%;
-    margin: 10% auto;
-    box-shadow: 0 0 9px black;
-  }
-  .qr-code-container > img{
-    height: 50%;
-    width: 95%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 15px;
-  }
-  .text-container > span{
-    text-align: center;
-    margin: -35px 5%;
-    font-family: var(--font-brand);
-    font-weight: var(--font-weight700);
-    padding: 2em 1.2em;
-
+    margin: 0;
+    padding: 0;
   }
   
-  .text-container > span:nth-child(2){
+  body {
+    font-family: var(--font-brand);
+    background-color: var(--slate-white300);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .qr-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.25rem;
     color: var(--slate-white900);
-    font-size: var(--font-size15);
-    display: block;
+    margin-bottom: 0.75rem;
   }
-
-
-  @media (min-width: 1024px)
-  {
-    .container{
-      height: 95vh;
-      width: 40vw;
-    }
-    
+  
+  p {
+    font-size: 0.9375rem;
+    color: var(--slate-white500);
   }
+  
